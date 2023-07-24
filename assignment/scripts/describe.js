@@ -48,9 +48,13 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // 
 // Declared a variable 'secret' without initializing it, so it has a value of 'undefined'.
+//
 // Created another variable 'code' and set it to '123'.
+//
 // Check if the code is equal to '123'. If it is, then the variable 'secret' will be assigned the string 'super', and the code will be '246' (123 times 2).
+//
 // If the code is greater than '250', then the variable 'secret' would be assigned the string 'duper'.
+//
 // console.log would read: 'super'.
 //
 
@@ -78,6 +82,7 @@ console.log(secret)
 // Created a Boolean variable for 'isStudent'. Set it to true.
 // Declared a variable 'age' and set it to 34.
 // Created another variable 'zip' with a setting of 55407.
+//
 // Check if 'isStudent' is true with a compound conditional statement AND if the 'zip' is greater than 80000. 
 //    If both of these are true, then the console.log would read 'You're a student on the West Coast!'
 // If the first condition is not met, then this else if statement is executed. It checks two conditions: if 'isStudent' is false, and if 'age' is less than 30.

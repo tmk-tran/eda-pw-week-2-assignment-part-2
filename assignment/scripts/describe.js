@@ -158,7 +158,7 @@ let mix = true;
 
 if (mix === true) {
 
-  //FIX - colorOne + colorTwo = 'purple'; 
+  // FIX - colorOne + colorTwo = 'purple'; //
   colorOne = 'purple';
 }
 */
@@ -171,11 +171,11 @@ if (mix === true) {
 let temp = 40;
 
 // FIX - time changes, so this shouldn't be listed as a constant. 
-// let time = 4;
+// let time = 4; //
 const time = 4;
 
 //FIX - this is an 'OR' compound conditional, should use '&&' instead.
-// if ( temp > 39 && time >= 4 ) {
+// if ( temp > 39 && time >= 4 ) { //
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -192,7 +192,7 @@ const minAge = 21;
 // FIX - the instructions ask to check if age is greater than or equal to minAge, and it is.
 // Rewrite as:
 // if( age >= minAge ) {
-//  console.log('enter');
+//  console.log('enter'); 
 //
 
 if(minAge <= age) {

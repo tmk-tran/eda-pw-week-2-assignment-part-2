@@ -193,6 +193,7 @@ const minAge = 21;
 // Rewrite as:
 // if( age >= minAge ) {
 //  console.log('enter');
+//
 
 if(minAge <= age) {
   console.log('no entry');
